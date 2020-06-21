@@ -62,7 +62,7 @@ class App extends Component {
   constructor(props) {
     super(props)
     this.state = DEFAULT_STATE
-    this.myRef = React.createRef()
+    this.myRef = createRef()
     this.handleSubmit = this.handleSubmit.bind(this)
   }
 
